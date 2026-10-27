@@ -214,21 +214,6 @@ export default async function ReportsPage({
           <button className="inline-flex items-center justify-center rounded-xl bg-cyan-600 px-4 py-2.5 font-semibold text-white transition-colors hover:bg-cyan-700">
             Terapkan
           </button>
-
-          <Link
-            className="rounded-xl border px-3 py-2.5 text-sm font-semibold"
-            href={`/api/reports/csv?${exportQuery}`}
-          >
-            CSV
-          </Link>
-
-          <Link
-            className="rounded-xl border px-3 py-2.5 text-sm font-semibold"
-            href={`/api/reports/xlsx?${exportQuery}`}
-          >
-            Excel
-          </Link>
-
           <Link
             className="rounded-xl border px-3 py-2.5 text-sm font-semibold"
             href={`/reports/print?${exportQuery}`}
